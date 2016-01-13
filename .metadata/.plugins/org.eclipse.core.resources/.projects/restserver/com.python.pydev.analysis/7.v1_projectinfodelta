@@ -1,0 +1,11 @@
+INSTUPsas.serializers
+/work/ericr/workspace/restserver/sas/serializers.py
+INFOS:&&1|1|2|0&&1|3|2|1&&3|4|2|5&&3|6|2|5&&1|7|2|0&&1|3|2|7&&3|4|2|8&&3|6|2|8
+GroupSerializer.Meta=8
+sas.serializers=2
+model=4
+Meta=3
+GroupSerializer=7
+UserSerializer=1
+UserSerializer.Meta=5
+fields=6

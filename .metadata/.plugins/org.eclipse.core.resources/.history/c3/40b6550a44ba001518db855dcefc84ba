@@ -1,0 +1,19 @@
+import requests
+
+r = requests.get('http://localhost:8000/sas/users/?format=json')
+if r.status_code == 200:
+	print r.text
+	val = r.json()
+	index = 0
+	for rec in val:
+		index = index + 1
+		print "Record: ", index
+		print rec
+		for k in rec:
+			print k,": ", rec[k]
+ 
+payload = {'username':'ericr2', 'groups': [u'http://localhost:8000/sas/groups/1/?format=json']}
+
+r = requests.post('http://localhost:8000/sas/users/',json=payload)
+print r.status_code
+print r.text

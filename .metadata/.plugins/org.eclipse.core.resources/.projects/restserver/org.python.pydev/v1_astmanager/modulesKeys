@@ -1,0 +1,6 @@
+MODULES_MANAGER_V2
+manage|/work/ericr/workspace/restserver/manage.py
+restserver.__init__|/work/ericr/workspace/restserver/restserver/__init__.py
+restserver.settings|/work/ericr/workspace/restserver/restserver/settings.py
+restserver.urls|/work/ericr/workspace/restserver/restserver/urls.py
+restserver.wsgi|/work/ericr/workspace/restserver/restserver/wsgi.py

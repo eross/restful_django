@@ -1,0 +1,8 @@
+import requests
+
+
+r = requests.get('http://localhost:8000/sas/users/2/?format=json')
+
+print r.status_code
+if r.status_code == 200:
+	print r.text
