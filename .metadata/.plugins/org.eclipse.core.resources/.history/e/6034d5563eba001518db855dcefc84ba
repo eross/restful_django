@@ -1,9 +1,0 @@
-import requests
-
-r = requests.get('https://rndhub.vcd.hp.com', verify=False)
-
-print r.status_code
-
-r = requests.get('http://localhost:8000/sas/users/2/?format=json')
-
-print r.status_code
