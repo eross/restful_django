@@ -5,6 +5,7 @@ selector = 0
 payloads=[]
 payloads.append({"username":"ericr3e", "email": "eric.ross@hp.com"})
 payloads.append({"username":"ericr3x", "email": "ericr@hp.com"})
+## update the record multiple times, alternating between two values
 for x in xrange(0,4):
 
 	r = requests.put('http://localhost:8000/sas/users/4/',json=payloads[selector])
